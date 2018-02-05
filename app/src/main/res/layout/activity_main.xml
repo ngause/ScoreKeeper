@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,8 +22,8 @@
                 android:id="@+id/team_a_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginBottom="@dimen/no_margin"
+                android:layout_marginTop="@dimen/no_margin"
                 android:entries="@array/nfl_teams_array"
                 android:gravity="center" />
 
@@ -172,8 +171,8 @@
                 android:id="@+id/team_b_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginBottom="@dimen/no_margin"
+                android:layout_marginTop="@dimen/no_margin"
                 android:entries="@array/nfl_teams_array"
                 android:gravity="center" />
 
@@ -352,7 +351,7 @@
             android:elevation="@dimen/elevation"
             android:onClick="resetScore"
             android:padding="@dimen/small_margin"
-            android:text="reset"
+            android:text="@string/reset"
             android:textColor="@color/white" />
 
         <ImageView

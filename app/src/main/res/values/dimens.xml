@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- text sizes -->
     <dimen name="team_name_text">16sp</dimen>
     <dimen name="bar_text_size">16sp</dimen>
     <dimen name="scoreboard_text">40sp</dimen>
 
+    <dimen name="no_margin">0dp</dimen>
     <dimen name="elevation">2dp</dimen>
     <dimen name="xsmall_margin">4dp</dimen>
     <dimen name="small_margin">8dp</dimen>

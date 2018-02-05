@@ -7,6 +7,7 @@
     <string name="points_tpc">two point conversion</string>
     <string name="points_fg">field goal</string>
     <string name="points_saf">safety</string>
+    <string name="reset">reset</string>
 
     <string-array name="nfl_teams_array">
         <item>Choose Team</item>
