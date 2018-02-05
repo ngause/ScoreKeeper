@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fieldGreen">#6D932C</color>
+    <color name="nflRed">#A50A0A</color>
+    <color name="bBallOrange">#FF9800</color>
+    <color name="scoreboard_red">#D50000</color>
+    <color name="nfl_black">#101820</color>
+    <color name="white">#FFFFFF</color>
+</resources>

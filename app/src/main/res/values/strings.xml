@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="initial_score">0</string>
+    <string name="points_td">touchdown</string>
+    <string name="points_xp">extra point</string>
+    <string name="points_tpc">two point conversion</string>
+    <string name="points_fg">field goal</string>
+    <string name="points_saf">safety</string>
+
+    <string-array name="nfl_teams_array">
+        <item>Choose Team</item>
+        <item>Arizona Cardinals</item>
+        <item>Atlanta Falcons</item>
+        <item>Baltimore Ravens</item>
+        <item>Buffalo Bills</item>
+        <item>Carolina Panthers</item>
+        <item>Chicago Bears</item>
+        <item>Cincinnati Bengals</item>
+        <item>Cleveland Browns</item>
+        <item>Dallas Cowboys</item>
+        <item>Denver Broncos</item>
+        <item>Detroit Lions</item>
+        <item>Green Bay Packers</item>
+        <item>Houston Texans</item>
+        <item>Indianapolis Colts</item>
+        <item>Jacksonville Jaguars</item>
+        <item>Kansas City Chiefs</item>
+        <item>Los Angeles Chargers</item>
+        <item>Los Angeles Rams</item>
+        <item>Miami Dolphins</item>
+        <item>Minnesota Vikings</item>
+        <item>New England Patriots</item>
+        <item>New Orleans Saints</item>
+        <item>New York Giants</item>
+        <item>New York Jets	</item>
+        <item>Oakland Raiders</item>
+        <item>Philadelphia Eagles</item>
+        <item>Pittsburgh Steelers</item>
+        <item>San Francisco 49ers</item>
+        <item>Seattle Seahawks</item>
+        <item>Tampa Bay Buccaneers</item>
+        <item>Tennessee Titans</item>
+        <item>Washington Redskins</item>
+    </string-array>
+
+    <integer-array name="team_image">
+        <item>@drawable/nfl_logo</item>
+        <item>@drawable/arizona_cardinals</item>
+        <item>@drawable/atlanta_falcons</item>
+        <item>@drawable/baltimore_ravens</item>
+        <item>@drawable/buffalo_bills</item>
+        <item>@drawable/carolina_panthers</item>
+        <item>@drawable/chicago_bears</item>
+        <item>@drawable/cincinnati_bengals</item>
+        <item>@drawable/cleveland_browns</item>
+        <item>@drawable/dallas_cowboys</item>
+        <item>@drawable/denver_broncos</item>
+        <item>@drawable/detroit_lions</item>
+        <item>@drawable/green_bay_packers</item>
+        <item>@drawable/houston_texans</item>
+        <item>@drawable/indianapolis_colts</item>
+        <item>@drawable/jacksonville_jaguars</item>
+        <item>@drawable/kansas_city_chiefs</item>
+        <item>@drawable/los_angeles_chargers</item>
+        <item>@drawable/los_angeles_rams</item>
+        <item>@drawable/miami_dolphins</item>
+        <item>@drawable/minnesota_vikings</item>
+        <item>@drawable/new_england_patriots</item>
+        <item>@drawable/new_orleans_saints</item>
+        <item>@drawable/new_york_giants</item>
+        <item>@drawable/new_york_jets</item>
+        <item>@drawable/oakland_raiders</item>
+        <item>@drawable/philadelphia_eagles</item>
+        <item>@drawable/pittsburgh_steelers</item>
+        <item>@drawable/san_francisco_49ers</item>
+        <item>@drawable/seattle_seahawks</item>
+        <item>@drawable/tampa_bay_buccaneers</item>
+        <item>@drawable/tennessee_titans</item>
+        <item>@drawable/washington_redskins</item>
+    </integer-array>
+
+    <integer-array name="team_color_array">
+        <item>@drawable/nfl_shape</item>
+        <item>@drawable/arizona_cardinals_shape</item>
+        <item>@drawable/atlanta_falcons_shape</item>
+        <item>@drawable/baltimore_ravens_shape</item>
+        <item>@drawable/buffalo_bills_shape</item>
+        <item>@drawable/carolina_panthers_shape</item>
+        <item>@drawable/chicago_bears_shape</item>
+        <item>@drawable/cincinnati_bengals_shape</item>
+        <item>@drawable/cleveland_browns_shape</item>
+        <item>@drawable/dallas_cowboys_shape</item>
+        <item>@drawable/denver_broncos_shape</item>
+        <item>@drawable/detroit_lions_shape</item>
+        <item>@drawable/green_bay_packers_shape</item>
+        <item>@drawable/houston_texans_shape</item>
+        <item>@drawable/indianapolis_colts_shape</item>
+        <item>@drawable/jacksonville_jaguars_shape</item>
+        <item>@drawable/kansas_city_chiefs_shape</item>
+        <item>@drawable/los_angeles_chargers_shape</item>
+        <item>@drawable/los_angeles_rams_shape</item>
+        <item>@drawable/miami_dolphins_shape</item>
+        <item>@drawable/minnesota_vikings_shape</item>
+        <item>@drawable/new_england_patriots_shape</item>
+        <item>@drawable/new_orleans_saints_shape</item>
+        <item>@drawable/new_york_giants_shape</item>
+        <item>@drawable/new_york_jets_shape</item>
+        <item>@drawable/oakland_raiders_shape</item>
+        <item>@drawable/philadelphia_eagles_shape</item>
+        <item>@drawable/pittsburgh_steelers_shape</item>
+        <item>@drawable/san_francisco_49ers_shape</item>
+        <item>@drawable/seattle_seahawks_shape</item>
+        <item>@drawable/tampa_bay_buccaneers_shape</item>
+        <item>@drawable/tennessee_titans_shape</item>
+        <item>@drawable/washington_redskins_shape</item>
+    </integer-array>
+
+</resources>
