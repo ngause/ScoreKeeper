@@ -105,6 +105,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("pointsTeamA", pointsTeamA);
+        outState.putInt("pointsTeamB", pointsTeamB);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        pointsTeamA = savedInstanceState.getInt("pointsTeamA");
+        pointsTeamB = savedInstanceState.getInt("pointsTeamB");
+        displayForTeamA(pointsTeamA);
+        displayForTeamB(pointsTeamB);
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
